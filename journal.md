@@ -11,3 +11,10 @@
 * 三个module函数（k/非k折叠和独热编码）还没有完善，需要输出的时候增加一些特征。
 * 后续工作就是添加module，形成pipeline，尝试跑通。
 * 考虑web可能。
+
+## 3/26
+* 增加了regression model选择
+* 增加了标准化函数
+* 改写regression的两个函数，可以直接选择scaler
+* 预计明天先尝试跑通一个pipeline回归
+* 后续完善regression部分，statistical有boostrap，置信区间等，classification可以学习一下，visualization包括一些基本图表的实现。
