@@ -6,6 +6,7 @@
 * Summary太详细了，可以只保留最重要的参数，其他的折叠
 
 ## 3/25
+
 * 新的想法：因为这个项目本来就算data100的结业（？）项目，包含各个板块的知识，考虑把他们变成一个个module函数，供用户自己组装。也可以自己添加自定义函数，满足个性化需求。
 * 新增了module/和utils/，module里分为回归、分类、清洗、统计、可视化五个部分。utils包括一些基础的输入输出处理等等。
 * 三个module函数（k/非k折叠和独热编码）还没有完善，需要输出的时候增加一些特征。
@@ -13,8 +14,15 @@
 * 考虑web可能。
 
 ## 3/26
+
 * 增加了regression model选择
 * 增加了标准化函数
 * 改写regression的两个函数，可以直接选择scaler
 * 预计明天先尝试跑通一个pipeline回归
 * 后续完善regression部分，statistical有boostrap，置信区间等，classification可以学习一下，visualization包括一些基本图表的实现。
+
+## 3/27
+
+* 写了一个pipeline，基本可以跑通目前module（回归）
+* 改善输出，输出回归结果
+
