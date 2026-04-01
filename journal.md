@@ -21,8 +21,14 @@
 * 预计明天先尝试跑通一个pipeline回归
 * 后续完善regression部分，statistical有boostrap，置信区间等，classification可以学习一下，visualization包括一些基本图表的实现。
 
-## 3/27
+## 3/28
 
 * 写了一个pipeline，基本可以跑通目前module（回归）
 * 改善输出，输出回归结果
 
+## 4/1
+* 更新statistical中的置信区间和boostrap
+* 修改readme
+* 基本把已学的重要部分（可视化除外）更新完毕（其实很少，基础的回归、特征工程、sampling、置信区间）
+* 后续更新完可视化之后重新调整每个函数，做一个大一点的pipeline
+* 后期可能会根据学习内容不定期添加
